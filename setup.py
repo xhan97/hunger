@@ -11,15 +11,15 @@ ver_file = os.path.join('hunger', '_version.py')
 with open(ver_file) as f:
     exec(f.read())
 
-DISTNAME = 'sklearn-template'
-DESCRIPTION = 'A template for scikit-learn compatible packages.'
+DISTNAME = 'HUNGER'
+DESCRIPTION = 'A python library for evaluating Herichcial Clustering.'
 with codecs.open('README.rst', encoding='utf-8-sig') as f:
     LONG_DESCRIPTION = f.read()
 MAINTAINER = 'Xin Han'
 MAINTAINER_EMAIL = 'xhan@tulip.academy'
-URL = 'https://github.com/scikit-learn-contrib/project-template'
+URL = 'https://github.com/xhan97/hunger'
 LICENSE = 'new BSD'
-DOWNLOAD_URL = 'https://github.com/scikit-learn-contrib/project-template'
+DOWNLOAD_URL = 'https://github.com/xhan97/hunger'
 VERSION = __version__
 INSTALL_REQUIRES = ['numpy', 'scipy', 'scikit-learn']
 CLASSIFIERS = ['Intended Audience :: Science/Research',

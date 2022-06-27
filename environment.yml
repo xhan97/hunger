@@ -1,4 +1,4 @@
-name: project-template
+name: hunger
 dependencies:
   - numpy
   - scipy
