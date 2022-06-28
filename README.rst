@@ -2,8 +2,8 @@
 
 HUNGER- Hierarchical Clustering Evaluation Library
 ============================================================
-**HUNGER** is a python library for evaluating Herichcial Clustering.
-It includes serveral metrics for evaluating Herichcial Clustering.
+**HUNGER** is a python library for evaluating Hierarchical Clustering.
+It includes serveral metrics for evaluating Hierarchical Clustering.
 All metrics is designed for using dendrogram which see also in `scipy.cluster.hierarchy.dendrogram`.
 
 Supported metrics
